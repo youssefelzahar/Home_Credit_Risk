@@ -1,0 +1,3 @@
+choose the columns before drop
+median with values less than 40% but check outlier before do it
+use missforest  
