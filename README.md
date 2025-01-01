@@ -53,27 +53,6 @@ The dataset used in this project is from [Kaggle's Home Credit Default Risk comp
    ```
 
 3. Download the dataset from [Kaggle](https://www.kaggle.com/competitions/home-credit-default-risk/data) and place it in the `data/` directory.
-
-## Usage
-
-1. Preprocess the data:
-   ```bash
-   python preprocess.py
-   ```
-
-2. Train the model:
-   ```bash
-   python train.py
-   ```
-
-3. Evaluate the model:
-   ```bash
-   python evaluate.py
-   ```
-
-4. Generate predictions on new data:
-   ```bash
-   python predict.py --input new_data.csv --output predictions.csv
    ```
 
 ## Models and Methodologies
@@ -84,18 +63,17 @@ The dataset used in this project is from [Kaggle's Home Credit Default Risk comp
   - Scaling numerical features.
   - Generating interaction terms and polynomial features.
 - **Models Tested:**
-  - Logistic Regression
+  - Decsion tree
   - Random Forest
   - Gradient Boosting (e.g., XGBoost, LightGBM)
-  - Support Vector Machines (SVM)
-- **Hyperparameter Tuning:** Grid search and cross-validation for optimal performance.
+    
 
 ## Results
 - **Best Model:** [Your best model, e.g., LightGBM]
 - **Key Metrics:**
-  - AUC: [Your AUC score]
-  - Accuracy: [Your accuracy score]
-  - F1-Score: [Your F1-score]
+  - AUC: [98]
+  - F1-Score: [class 0-> 0.99
+  - class 1-> 0.83]
 
 Visualizations and performance summaries are available in the `results/` directory.
 
