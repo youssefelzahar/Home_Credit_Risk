@@ -55,8 +55,7 @@ The dataset used in this project is from [Kaggle's Home Credit Default Risk comp
 3. Download the dataset from [Kaggle](https://www.kaggle.com/competitions/home-credit-default-risk/data) and place it in the `data/` directory.
    ```bash
    kaggle competitions download -c home-credit-default-risk
-   '''
-
+   ```
 ## Models and Methodologies
 - **Exploratory Data Analysis (EDA):** Identify trends, correlations, and outliers.
 - **Feature Engineering:** Techniques include:
